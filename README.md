@@ -4,9 +4,11 @@ Draw a football pitch with ggplot using [drawPitch.R](https://github.com/JoGall/
 For example, using real player data obtained [here](https://github.com/JoGall/simulated-walks/blob/master/fitFootballRun.R):
 
 <img src="https://user-images.githubusercontent.com/17113779/30368517-48f38bde-9869-11e7-8cc2-4ce888136e13.png" width="500">
+
 **Figure 1.** Player trajectory over one minute (1200 frames) (id #9; Tromsø IL vs. Strømsgodset, 2013-11-03).
 
 <img src="https://user-images.githubusercontent.com/17113779/30372871-463e9a6a-9877-11e7-9a3d-2624ec179c87.png" width="500">
+
 **Figure 2.** Heatmap of player position (id #9, 1st half; Tromsø IL vs. Strømsgodset, 2013-11-03).
 
 ## Pitch dimensions
