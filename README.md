@@ -1,5 +1,7 @@
 ## Draw football pitch in ggplot
-Draws a football pitch using ggplot for overlaying positional statistics, movement trajectories, etc. For example (data obtained using [this script](https://github.com/JoGall/simulated-walks/blob/master/fitFootballRun.R)):
+Draw a football pitch with ggplot using [drawPitch.R](https://github.com/JoGall/football-stats/blob/master/drawPitch.R) for overlaying positional statistics, movement trajectories, etc.
+
+For example, using data obtained [here](https://github.com/JoGall/simulated-walks/blob/master/fitFootballRun.R):
 
 <img src="https://user-images.githubusercontent.com/17113779/30368517-48f38bde-9869-11e7-8cc2-4ce888136e13.png" width="500">
 
