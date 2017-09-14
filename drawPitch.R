@@ -9,11 +9,10 @@ require(ggforce)
 # plot = a ggplot object to add layers to
 # length = length of pitch in metres (m)
 # width = width of pitch in metres (m)
-# bg_col = colour of pitch fill (keep as "NA" to retain visibility of previous plot)
 # fg_col = colour of pitch lines
 #----------------------------------------------------------------------------
 
-pitchFG <- function(plot, length = 105, width = 68, bg_col = "NA", fg_col = "black") {
+pitchFG <- function(plot, length = 105, width = 68, fg_col = "black") {
   plot +
     geom_rect(aes(xmin = -4, xmax = pitch_length + 4, ymin = -4, ymax = pitch_width + 4), fill = "NA") +
     # outer lines
@@ -31,8 +30,8 @@ pitchFG <- function(plot, length = 105, width = 68, bg_col = "NA", fg_col = "bla
     geom_circle(aes(x0 = 11, y0 = pitch_width / 2, r = 0.5), fill = fg_col, col = fg_col, lwd = 1.2) +
     geom_circle(aes(x0 = pitch_length - 11, y0 = pitch_width / 2, r = 0.5), fill = fg_col, col = fg_col, lwd = 1.2) +
     # penalty arcs
-    geom_arc(aes(x0= 11, y0 = pitch_width / 2, r = 9.15, start = 0.65, end = 2.49), lwd = 1.2) +
-    geom_arc(aes(x0 = pitch_length - 11, y0 = pitch_width / 2, r = 9.15, start = 3.79, end = 5.63), lwd = 1.2) +
+    geom_arc(aes(x0= 11, y0 = pitch_width / 2, r = 9.15, start = 0.65, end = 2.49), col = fg_col, lwd = 1.2) +
+    geom_arc(aes(x0 = pitch_length - 11, y0 = pitch_width / 2, r = 9.15, start = 3.79, end = 5.63), col = fg_col, lwd = 1.2) +
     # six yard boxes
     geom_rect(aes(xmin = 0, xmax = 5.5, ymin = (pitch_width / 2) - 9.16, ymax = (pitch_width / 2) + 9.16), fill = "NA", col = fg_col, lwd = 1.2) +
     geom_rect(aes(xmin = pitch_length - 5.5, xmax = pitch_length, ymin = (pitch_width / 2) - 9.16, ymax = (pitch_width / 2) + 9.16), fill = "NA", col = fg_col, lwd = 1.2) +
@@ -69,8 +68,8 @@ pitchBG <- function(length = 105, width = 68, bg_col = "#008000", fg_col = "#FFF
     # halfway line
     geom_segment(aes(x = length / 2, y = 0, xend = length / 2, yend = width), col = fg_col, lwd = 1.2) +
     # penalty arcs
-    geom_circle(aes(x0 = 11, y0 = width / 2, r = 9.15), fill = bg_col, col = fg_col, lwd = 1.2) +
-    geom_circle(aes(x0 = length - 11, y0 = width / 2, r = 9.15), fill = bg_col, col = fg_col, lwd = 1.2) +
+    geom_arc(aes(x0= 11, y0 = pitch_width / 2, r = 9.15, start = 0.65, end = 2.49), fill = bg_col, col= fg_col, lwd = 1.2) +
+    geom_arc(aes(x0 = pitch_length - 11, y0 = pitch_width / 2, r = 9.15, start = 3.79, end = 5.63), , fill = bg_col, col= fg_col, lwd = 1.2) +
     # penalty areas
     geom_rect(aes(xmin = 0, xmax = 16.5, ymin = width / 2 - (40.3 / 2), ymax = width / 2 + (40.3 / 2)), fill = bg_col, col = fg_col, lwd = 1.2) +
     geom_rect(aes(xmin = length - 16.5, xmax = length, ymin = width / 2 - (40.3 / 2), ymax = width / 2 + (40.3 / 2)), fill = bg_col, col = fg_col, lwd = 1.2) +
