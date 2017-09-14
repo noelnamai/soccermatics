@@ -7,7 +7,7 @@ For example, using real player data obtained [here](https://github.com/JoGall/si
 
 **Figure 1.** Player trajectory over one minute (1200 frames) (id #9; Tromsø IL vs. Strømsgodset, 2013-11-03).
 
-<img src="https://user-images.githubusercontent.com/17113779/30372871-463e9a6a-9877-11e7-9a3d-2624ec179c87.png" width="500">
+<img src="https://user-images.githubusercontent.com/17113779/30406384-528eacd4-98e9-11e7-8e87-693b9d26f110.png" width="500">
 
 **Figure 2.** Heatmap of player position (id #9, 1st half; Tromsø IL vs. Strømsgodset, 2013-11-03).
 
