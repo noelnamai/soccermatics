@@ -16,18 +16,6 @@
 
 **Figure 4.** 'Wagon wheel' visualisation showing direction of events in different areas of the pitch (player #9; Tromsø IL vs. Strømsgodset, 2013-11-03). This figure uses a random sample of player movement, but this method is intended to visualise pass or shot event data which are not yet publicly available.
 
-## Draw football pitch in ggplot
-Draw a football pitch with ggplot using [drawPitch.R](https://github.com/JoGall/football-stats/blob/master/drawPitch.R) for overlaying positional statistics, movement trajectories, etc.
-
-For example, using real player data obtained [here](https://github.com/JoGall/simulated-walks/blob/master/fitFootballRun.R):
-
-<img src="https://user-images.githubusercontent.com/17113779/30368517-48f38bde-9869-11e7-8cc2-4ce888136e13.png" width="500">
-
-**Figure 1.** Player trajectory over one minute (1200 frames) (id #9; Tromsø IL vs. Strømsgodset, 2013-11-03).
-
-<img src="https://user-images.githubusercontent.com/17113779/30406384-528eacd4-98e9-11e7-8e87-693b9d26f110.png" width="500">
-
-**Figure 2.** Heatmap of player position (id #9, 1st half; Tromsø IL vs. Strømsgodset, 2013-11-03).
 
 ## Pitch dimensions
 Many repositories provide relative x,y-coordinates in their positional statistics (e.g. pass location, shot location), using a scale of 0-100 for pitch length and width. The exact pitch dimensions (i.e. in metres) are therefore needed to determine the true value (e.g. pass length, shot distance).
