@@ -28,9 +28,9 @@ a soccer pitch.
 }
 \examples{
 \dontrun{
-dat <- data(tromso)
+data(tromso)
 # draw heatmap of player #9's position
-p <- soccerHeatmap(subset(d, id == 9), bins = 15, lengthPitch = 105, widthPitch = 68)
+p <- soccerHeatmap(subset(tromso, id == 9), bins = 15, lengthPitch = 105, widthPitch = 68)
 # add arrow showing direction of play to the right
 soccerDirection(p, "right", lengthPitch = 105, widthPitch = 68)
 }

@@ -20,9 +20,9 @@ object to provide context for heatmaps, passing maps, etc..
 }
 \examples{
 \dontrun{
-dat <- data(tromso)
+data(tromso)
 # draw heatmap of player #9's position
-p <- soccerHeatmap(subset(d, id == 8), bins = 15, lengthPitch = 105, widthPitch = 68)
+p <- soccerHeatmap(subset(tromso, id == 8), bins = 15, lengthPitch = 105, widthPitch = 68)
 # add pitch lines to plot
 soccerPitchFG(p, lengthPitch = 105, widthPitch = 68)
 }

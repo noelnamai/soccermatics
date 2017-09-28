@@ -1,4 +1,4 @@
-team,FDCOUK,stadium,length_m,width_m,length_yd,width_yd
+team,alt_name,stadium,length_m,width_m,length_yd,width_yd
 Arsenal,Arsenal,Emirates Stadium,105,68,115,74
 Bournemouth,Bournemouth,Dean Court,105,78,114.82,85.3
 Chelsea,Chelsea,Stamford Bridge,103,67,112.6,73.2
@@ -18,3 +18,4 @@ Tottenham Hotspur,Tottenham,White Hart Lane,100,67,110,73
 Watford,Watford,Vicarage Road,109.73,73.15,120,80
 West Bromwich Albion,West Brom,The Hawthorns,105,68,115,74
 West Ham United,West Ham,Olympic Stadium,105,68,115,74
+Tromso,Tromsø IL ,Alfheim Stadion ,105,68,115,74
