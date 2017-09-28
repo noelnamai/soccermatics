@@ -11,9 +11,9 @@ NULL
 #' @return a ggplot object of a heatmap on a soccer pitch.
 #' @examples
 #' \dontrun{
-#' dat <- data(tromso)
+#' data(tromso)
 #' # draw heatmap of player #9's position
-#' soccerHeatmap(subset(d, id == 8), bins = 15)
+#' soccerHeatmap(subset(tromso, id == 8), bins = 15)
 #' }
 #' @seealso \code{\link{soccerHeatmap}} for drawing just a heatmap of player position.
 #' @export
