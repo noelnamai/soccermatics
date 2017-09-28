@@ -16,7 +16,7 @@ NULL
 #' # draw average player position of players
 #' p <- soccerPositions(tromso, lengthPitch = 105, widthPitch = 68, grass = TRUE)
 #' # draw arrow showing direction of play
-#' soccerDirection(p, "right", pitchLength = 105, pitchWidth = 68)
+#' soccerDirection(p, "right", lengthPitch = 105, widthPitch = 68)
 #' }
 #' @seealso \code{\link{soccerPitchBG}} for a background soccer pitch for the purpose of drawing position maps, player trajectories, etc..
 #' @export
