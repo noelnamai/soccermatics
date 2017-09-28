@@ -1,20 +1,24 @@
 ## Sample visualisations
 
+<img src="https://user-images.githubusercontent.com/17113779/30368517-48f38bde-9869-11e7-8cc2-4ce888136e13.png" width="500">
+
+**Figure 1.** Player trajectory over 60 seconds (player #9; Tromsø IL vs. Strømsgodset, 2013-11-03).
+
 <img src="https://user-images.githubusercontent.com/17113779/30522413-71806bce-9bc7-11e7-9e48-50e77ced3865.png" width="500">
 
-**Figure 1.** Player heatmap over 90 minutes (player #9; Tromsø IL vs. Strømsgodset, 2013-11-03). Arrow shows direction of play.
+**Figure 2.** Player heatmap over 90 minutes (player #9; Tromsø IL vs. Strømsgodset, 2013-11-03). Arrow shows direction of play.
 
 <img src="https://user-images.githubusercontent.com/17113779/30522404-43106fc8-9bc7-11e7-8f7a-4146aef7bcdc.png" width="500">
 
-**Figure 2.** Average position of each player (Tromsø IL vs. Strømsgodset, 2013-11-03). Arrow shows direction of play.
+**Figure 3.** Average position of each player (Tromsø IL vs. Strømsgodset, 2013-11-03). Arrow shows direction of play.
 
 <img src="https://user-images.githubusercontent.com/17113779/30522405-4311a35c-9bc7-11e7-8d16-a5d5efe154e6.png" width="500">
 
-**Figure 3.** Flow visualisation showing average player movement in different areas of the pitch (player #9; Tromsø IL vs. Strømsgodset, 2013-11-03).
+**Figure 4.** Flow visualisation showing average player movement in different areas of the pitch (player #9; Tromsø IL vs. Strømsgodset, 2013-11-03).
 
 <img src="https://user-images.githubusercontent.com/17113779/30522406-43193482-9bc7-11e7-9d67-d7e9e8329513.png" width="500">
 
-**Figure 4.** 'Wagon wheel' visualisation showing direction of events in different areas of the pitch (player #9; Tromsø IL vs. Strømsgodset, 2013-11-03). This figure uses a random sample of player movement, but this method is intended to visualise pass or shot event data which are not yet publicly available.
+**Figure 5.** 'Wagon wheel' visualisation showing direction of events in different areas of the pitch (player #9; Tromsø IL vs. Strømsgodset, 2013-11-03). This figure uses a random sample of player movement, but this method is intended to visualise pass or shot event data which are not yet publicly available.
 
 
 ## Pitch dimensions
