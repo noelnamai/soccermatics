@@ -13,7 +13,7 @@ Collate:
     'soccerPitchFG.R'
     'soccerPitchBG.R'
     'soccerDirection.R'
+    'soccerFlow.R'
     'soccerHeatmap.R'
     'soccerPositions.R'
-    'soccerSpokes.R'
 RoxygenNote: 6.0.1

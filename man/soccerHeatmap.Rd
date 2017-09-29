@@ -2,7 +2,7 @@
 % Please edit documentation in R/soccerHeatmap.R
 \name{soccerHeatmap}
 \alias{soccerHeatmap}
-\title{Draws a heatmap of player position and plots over soccer pitch outlines.}
+\title{Draws a heatmap of player position frequency in each area of the pitch and adds soccer pitch outlines.}
 \usage{
 soccerHeatmap(df, bins = 5, lengthPitch = 105, widthPitch = 68,
   yBins = NULL, colLow = "white", colHigh = "red")
@@ -22,14 +22,14 @@ soccerHeatmap(df, bins = 5, lengthPitch = 105, widthPitch = 68,
 a ggplot object of a heatmap on a soccer pitch.
 }
 \description{
-Draws a heatmap of player position and plots over soccer pitch outlines.
+Draws a heatmap of player position frequency in each area of the pitch and adds soccer pitch outlines.
 }
 \details{
 uses \code{ggplot2::geom_bin2d} to map 2D bin counts
 }
 \examples{
 \dontrun{
-dat <- data(tromso)
+data(tromso)
 # draw heatmap of player #9's position
 soccerHeatmap(subset(d, id == 8), bins = 15)
 }

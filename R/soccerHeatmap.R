@@ -1,6 +1,6 @@
 #' @include soccerPitchFG.R
 NULL
-#' Draws a heatmap of player position and plots over soccer pitch outlines.
+#' Draws a heatmap of player position frequency in each area of the pitch and adds soccer pitch outlines.
 #' 
 #' @param df dataframe containing x,y-coordinates of player position in columns named \code{'x'} and \code{'y'}.
 #' @param bins integer, the number of horizontal bins (length-wise) the soccer pitch is to be divided up into. If no value for \code{yBins} is provided, this value will also be used for the number of vertical (width-wise) bins.
@@ -11,7 +11,7 @@ NULL
 #' @details uses \code{ggplot2::geom_bin2d} to map 2D bin counts
 #' @examples
 #' \dontrun{
-#' dat <- data(tromso)
+#' data(tromso)
 #' # draw heatmap of player #9's position
 #' soccerHeatmap(subset(d, id == 8), bins = 15)
 #' }
