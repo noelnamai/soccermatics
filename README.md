@@ -51,6 +51,6 @@ Coming soon:
 
 
 #### Pitch dimensions
-Many performance datasets (e.g. (WhoScored)[https://www.whoscored.com/]) provide relative x,y-coordinates on a scale of 0-100. Real-life pitch dimensions (i.e. in metres) are therefore required in order to determine true distances (e.g. pass length, shot distance).
+Many performance datasets (e.g. [WhoScored](https://www.whoscored.com/)) provide relative x,y-coordinates on a scale of 0-100. Real-life pitch dimensions (i.e. in metres) are therefore required in order to determine true distances (e.g. pass length, shot distance).
 
 Pitch dimensions of all Premier League teams as listed on Wikipedia are available in the [pitch_dimensions.csv](https://github.com/JoGall/soccermatics/blob/master/data/pitch_dimensions.csv) file. In most cases, pitch length and width is listed in both metres and yards, but a conversion has been used where only one unit of measurement has been provided. EPL teams are up-to-date as of the 2016-17 season. The `alt_name` column contains alternative teamname definitions (e.g. as they appear in http://football-data.co.uk). I'd like to expand this list with more teams and welcome any contributions.
