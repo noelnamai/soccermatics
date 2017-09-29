@@ -21,8 +21,8 @@ positions, player trajectories, etc..
 \examples{
 \dontrun{
 # get x,y-coords of player #8 during first 10 minutes
-dat <- data(tromso)
-dd <- subset(dat, id == 9)[1:1200,]
+data(tromso)
+dd <- subset(tromso, id == 9)[1:1200,]
 # draw player path on pitch
 soccerPitchBG(lengthPitch = 105, widthPitch = 68, grass = TRUE) + 
   geom_path(data = dd, aes(x, y), lwd = 2)

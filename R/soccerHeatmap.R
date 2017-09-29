@@ -13,7 +13,7 @@ NULL
 #' \dontrun{
 #' data(tromso)
 #' # draw heatmap of player #9's position
-#' soccerHeatmap(subset(d, id == 8), bins = 15)
+#' soccerHeatmap(subset(tromso, id == 8), bins = 15)
 #' }
 #' @seealso \code{\link{soccerPitchBG}} for a background soccer pitch for the purpose of drawing position maps, player trajectories, etc..
 #' @export

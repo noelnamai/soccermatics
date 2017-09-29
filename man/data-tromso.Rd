@@ -16,10 +16,10 @@ Data on movements of 11 soccer players (1'-10'; Tromsø IL vs. Anzhi, 2013-11-07
 }
 \examples{
 \dontrun{
-dat <- data(tromso)
+data(tromso)
 # draw path of player #8 on a soccer pitch
 soccerPitchBG(lengthPitch = 105, widthPitch = 68, grass = TRUE) + 
-  geom_path(data = subset(dat, id == 8), aes(x, y), lwd = 2)
+  geom_path(data = subset(tromso, id == 8), aes(x, y), lwd = 2)
 }
 }
 \references{

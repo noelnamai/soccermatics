@@ -31,7 +31,7 @@ uses \code{ggplot2::geom_bin2d} to map 2D bin counts
 \dontrun{
 data(tromso)
 # draw heatmap of player #9's position
-soccerHeatmap(subset(d, id == 8), bins = 15)
+soccerHeatmap(subset(tromso, id == 8), bins = 15)
 }
 }
 \seealso{
